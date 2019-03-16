@@ -1,0 +1,17 @@
+amazonProperties:
+  accessKey: ****
+  bucketName: document-store-bucket
+  endpointUrl: https://s3.us-east-2.amazonaws.com
+  secretKey:  ****
+  
+fileSystemProperties:
+  storePath: C:\simple_store\
+  
+
+spring:    
+    datasource:
+        url: jdbc:postgresql://localhost:5432/****
+        username: ****
+        password: ****
+        platform: postgres
+        driver-class-name: org.postgresql.Driver 
